@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A simple task list to help you keep track of your day."
+    />
+    <title>Little List</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="app">
+      <header class="header">
+        <p class="eyebrow">A little space for your day</p>
+        <h1>Little List<span aria-hidden="true">.</span></h1>
+        <p class="subtitle">Small steps still move you forward.</p>
+      </header>
+
+      <form class="task-form" id="task-form">
+        <label class="sr-only" for="task-input">Add a task</label>
+        <input
+          id="task-input"
+          name="task"
+          type="text"
+          placeholder="What would you like to do?"
+          maxlength="120"
+          autocomplete="off"
+          required
+        />
+        <button type="submit">Add task</button>
+      </form>
+
+      <section class="list-section" aria-labelledby="list-heading">
+        <div class="list-heading">
+          <h2 id="list-heading">Today's tasks</h2>
+          <span class="task-count" id="task-count" aria-live="polite"></span>
+        </div>
+        <ul class="task-list" id="task-list"></ul>
+        <p class="empty-state" id="empty-state">
+          Nothing on your list yet. Add a task to get started.
+        </p>
+      </section>
+
+      <footer class="footer">One thing at a time.</footer>
+    </main>
+  </body>
+</html>
