@@ -10,3 +10,7 @@ This repository is created for learning Git and GitHub.
 - Commits
 - Branches
 - GitHub collaboration
+
+## New update to check the repository changes and getting pull request to the main owner
+
+New update to check the repository changes and getting pull request to the main owner
