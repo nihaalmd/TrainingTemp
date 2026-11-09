@@ -11,6 +11,6 @@ This repository is created for learning Git and GitHub.
 - Branches
 - GitHub collaboration
 
-## New update to check the repository changes and getting pull request to the main owner
+## New update to check the repository changes and getting pull request
 
-New update to check the repository changes and getting pull request to the main owner
+New update to check the repository changes and getting pull request
